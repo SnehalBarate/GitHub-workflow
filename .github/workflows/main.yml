@@ -10,5 +10,5 @@ on:
       runs-on: ubuntu-latest
 
       steps:
-       -name: Print message
-       run: echo "Hello GitHub Actions"
+       - name: Print message
+         run: echo "Hello GitHub Actions"
